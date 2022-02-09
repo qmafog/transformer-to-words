@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace TransformerToWords
 {
@@ -17,7 +17,7 @@ namespace TransformerToWords
         /// <example>
         /// new[] { 2.345, -0.0d, 0.0d, 0.1d } => { "Two point three four five", "Minus zero", "Zero", "Zero point one" }.
         /// </example>
-        public string[] Transform(double[] source)
+        public string[] Transform(double[]? source)
         {
             throw new NotImplementedException("You need to implement this method.");
         }
