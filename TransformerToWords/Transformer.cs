@@ -44,7 +44,7 @@ namespace TransformerToWords
                     return "eight";
                 case '9':
                     return "nine";
-                case ',':
+                case '.':
                     return "point";
                 case 'E':
                     return "E";
